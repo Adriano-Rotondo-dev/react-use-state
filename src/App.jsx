@@ -1,4 +1,3 @@
-//*enable useState functionality
 import Header from "./components/Header";
 import Main from "./components/Main";
 

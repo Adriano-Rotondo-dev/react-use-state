@@ -25,6 +25,21 @@
   gap: 1rem;
   margin-left: 2rem;
 }
+.card {
+  min-height: 5rem;
+  max-width: 50rem;
+  border: 1px solid rgb(190, 190, 190);
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+
+.cardHead {
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
+.cardBody {
+  font-weight: 300;
+}
 /*btns*/
 .btn {
   color: white;
@@ -34,6 +49,11 @@
   border-radius: 0.3rem;
   border: solid #0282f9;
   font-size: large;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.btn:active {
+  transform: scale(0.9);
 }
 
 .btn:focus {
