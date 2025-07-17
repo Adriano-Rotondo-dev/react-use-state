@@ -3,7 +3,7 @@ export default function Btn({ languages }) {
     <>
       {languages.map((language, index) => (
         <button key={index} className="btn">
-          {language.name} Hello
+          {language.name}
         </button>
       ))}
     </>

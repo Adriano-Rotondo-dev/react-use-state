@@ -4,19 +4,36 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*font*/
+* {
+  font-family: "Open Sans", sans-serif;
+}
 /*Header*/
-
+.header {
+  background-color: rgba(235, 233, 233, 0.726);
+  padding: 1rem;
+}
+.header h1 {
+  margin-left: 1rem;
+  color: rgb(27, 27, 27);
+}
 /*Main*/
-
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  margin-left: 2rem;
+}
 /*btns*/
 .btn {
   color: white;
   background-color: #0282f9;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 0.5rem 1rem;
+  margin: 3rem 0.5rem;
   border-radius: 0.3rem;
   border: solid #0282f9;
+  font-size: large;
 }
 
 .btn:focus {
