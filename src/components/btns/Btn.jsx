@@ -1,8 +1,15 @@
-export default function Btn({ languages }) {
+export default function Btn({ languages, onClick }) {
+  function handleMoreClick(language) {
+    onClick(language.id);
+  }
   return (
     <>
-      {languages.map((language, index) => (
-        <button key={index} className="btn">
+      {languages.map((language) => (
+        <button
+          key={language.id}
+          className="btn"
+          onClick={() => handleMoreClick(language)}
+        >
           {language.name}
         </button>
       ))}
